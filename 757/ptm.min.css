@@ -618,5 +618,16 @@ text-align: center;
 }
 	
 	
+.pcd_ad{display:block;}
+
+.mbd_ad{ display:none}
+
+@media(max-width:768px) {
+
+.pcd_ad{display:none !important;}
+
+.mbd_ad{display:block !important;}
+
+}
 	
 	
